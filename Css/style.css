@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.html{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+.main{
+  scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+  }
+
+  ul, ol{
+    list-style: none;
+  }
+
+  h1{
+    font-size: 4rem;
+  }
+
+  .menu {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+  }
+
+  .menu{
+    text-align: center;
+  }
+  .menu li:not(:last-child){
+    margin-bottom: 1.1rem;
+  }
+
+  a:hover{
+    color: grey;
+  }
+
+  .cars{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+  }
+
+  .menu{
+    background-image :linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url("../images/MENU-CAR.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .bmw-car{
+    background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url("../images/bmw-car.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .mers-car{
+    background-image:linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url("../images/mers-car.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .ferrari-car{
+    background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url("../images/ferrari-car.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .lambo-car{
+    background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url("../images/lambo-car.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .macclaren-car{
+    background-image:linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url("../images/macclaren-car.jpg");
+    background-size: cover;
+    background-position: center;
+  }
